@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bio",
+    "section": "",
+    "text": "This is a what is this going on website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "To get my latest CV, click here !"
+  },
+  {
+    "objectID": "things.html",
+    "href": "things.html",
+    "title": "Things I’m reading right now",
+    "section": "",
+    "text": "Peter Attia’s Outlive"
+  }
+]

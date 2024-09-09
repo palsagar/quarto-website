@@ -1,0 +1,12 @@
+{
+  "hash": "250dc3d3da1ecec878d64fcada6fa06d",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Bio\"\n---\n\n\n\n\nThis is a what is this going on website.\n\n\nIn python, we can write : \n\n::: {#b031f916 .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\na = np.linspace(0.0,1.0,100)\nb = np.linspace(0.0,1.0,100)\n\nxx , yy = np.meshgrid(a, b, indexing='ij')\n\nplt.pcolormesh(xx,yy,np.sin(xx) + np.cos(yy))\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=579 height=414}\n:::\n:::\n\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,37 @@
+project:
+  type: website
+  resources: cv_sep24.pdf
+  render:
+    - "*.qmd"
+
+website:
+  title: "Sagar Pal"
+  site-url: https://sagarpal.dev
+  description: "Computational Physics & High-Performance Computing"
+  page-navigation: true
+  page-footer: 
+    background: light
+    center: "© Copyright 2024 Sagar Pal. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0."
+  navbar:
+    background: dark
+    right:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: CV.qmd
+        text: CV
+      - href: things.qmd
+        text: Things I'm Reading 
+
+format:
+  html:
+    theme:
+      light: sandstone
+      dark: darkly
+    fontsize: 1.1em
+    css: styles.css
+    toc: true
+
+
+

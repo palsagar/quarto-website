@@ -1,7 +1,39 @@
 ---
-title: "Bio"
+title: "Sagar Pal"
+image: profile_pic.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      url: "https://www.linkedin.com/in/spal220493/"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/palsagar"
+    - text: Twitter
+      icon: twitter
+      url: "https://x.com/Sagar2204pal"
+    - text: Email
+      url: "mailto:sagar2204pal@gmail.com"
+    - text: CV
+      url: "cv_sep24.pdf"
+comments: false
 ---
+::: {.column-page}
 
-This is a what is this going on website.
+## Bio
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I’m a computational scientist with a prior background in mechanical engineering. During my time in academia, I have worked extensively in the domain of multiphase fluid dynamics, focusing on the complex flow physics of fluid fragmentation (droplets, sprays etc.) using both deterministic and stochastic modelling frameworks.
+
+I have significant experience in the development and numerical resolution of a variety of mathematical models (mainly coupled non-linear PDEs), as well as their large-scale parallel implementation on supercomputing infrastructure. In recent years, I’ve had the opportunity to add stochastic processes and probabilistic modelling techniques to my scientific computing toolkit.
+
+In my current role as a research scientist/engineer within the industrial R&D setup of a global leader in materials manufacturing, I develop computational models that tackle several physics and engineering challenges at the heart of large-scale and cutting edge industrial manufacturing processes. This includes working at the intersection of a wide array topics such as fluid dynamics, heat & mass transfer, thermal radiation, optimization, perturbation theory, numerical methods, experiment design etc.
+
+<p></p>
+
+## Selected Projects
+
+**[spatialsample](spatialsample.tidymodels.org/)** | Spatial Resampling Infrastructure | 2022  
+**[unifir](https://github.com/mikemahoney218/unifir)** | A Unifying API for Working with Unity in R | 2022  
+**[terrainr](https://github.com/ropensci/terrainr)** | Retrieve Data from the USGS National Map and Transform it for 3D Landscape Visualizations | 2021  
+
+:::
